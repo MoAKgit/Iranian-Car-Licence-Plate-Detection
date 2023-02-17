@@ -11,7 +11,7 @@ Here, I applied Yolov7 in two stages
 First yolo is to detect plates and cropp them from the raw image.
 The second yolo is to detect numbers and letters from the cropped plate.
 
-# Stage1:
+## Stage1:
 
 To train the yolo for plate detection, I utilized two datasets from the links below:
 
@@ -21,12 +21,13 @@ Since the annotations are not in the right format of Yolo-v7, I used the service
 
 The modified dataset is available using these lines of code:
 
-'''
+##usage
+```python
 from roboflow import Roboflow 
 rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
 project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") 
 dataset = project.version(1).download("yolov7")
-'''python
+'''
 
 
 To download the dataset, you need to first install roboflow in your environment.
