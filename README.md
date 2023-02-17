@@ -10,7 +10,7 @@ The flowchart of the model is illustrated below:
 
 Here, I applied Yolov7 in two stages
 
-First yolo is to detect plates and cropp them from the raw image.
+First yolo is to detect plates and crop them from the raw image.
 The second yolo is to detect numbers and letters from the cropped plate.
 
 ## Stage1:
@@ -21,7 +21,7 @@ https://www.kaggle.com/datasets/skhalili/iraniancarnumberplate
 
 Since the annotations are not in the right format of Yolo-v7, I used the service provided by the Roboflow website to generate corresponding annotations for Yolo-v7.
 
-The modified dataset is available using these lines of code:
+The modified dataset is available using a couple of codes below:
 
 ## usage
 ```python
