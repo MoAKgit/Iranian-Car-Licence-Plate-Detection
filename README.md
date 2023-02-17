@@ -26,7 +26,8 @@ The modified dataset is available using these lines of code:
 from roboflow import Roboflow  
 rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV")   
 project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul")   
-dataset = project.version(1).download("yolov7")  
+dataset = project.version(1).download("yolov7") 
+
 '''
 
 
