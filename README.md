@@ -40,7 +40,7 @@ Notice that yolo-v7 should be cloned from github:
 And also the pre-trained weights are available from the link below:
 
 
-stage2:
+## Stage2:
 
 
 In the second stage, we need to detect numbers and letters in the plate, and then be inspired by the work:
@@ -51,10 +51,12 @@ Like the previous dataset, we need to change the annotation appropriate for yolo
 
 After all, the modified images and annotations are available using the following codes:
 
+```python
 from roboflow import Roboflow 
 rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
-project = rf.workspace("platedetection-jgwnf").project("numdetection") 
-dataset = project.version(1).download("yolov7")
+project = rf.workspace("platedetection-jgwnf").project("numdetection")   
+dataset = project.version(1).download("yolov7")  
+'''
 
 After downloading the dataset, I fine-tuned the second yolov7 to detect letters inside the plates.
 
