@@ -2,7 +2,6 @@
 
 # Iranian Licence Detection Using Yolo-v7:
 
-
 The flowchart of the model is illustrated below:
 
 Here, I applied Yolov7 in two stages
@@ -11,7 +10,7 @@ For detecting plates and cropping them from the vehicle
 Detecting numbers and letters from the cropped plate.
 stage1:
 
-In order to train the yolo for plate detection, I used two datasets from the links below:
+To train the yolo for plate detection, I used two datasets from the links below:
 
 After combining these two datasets, Since the annotations are not in the right format of Yolo-v7, I used the service provided by the Roboflow website to generate corresponding annotations for Yolo-v7.
 
@@ -19,13 +18,13 @@ The dataset is available using these lines of code:
 
 from roboflow import Roboflow rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") dataset = project.version(1).download("yolov7")
 
-To download the dataset, you need to first install roboflow in your envirenment.
+To download the dataset, you need to first install roboflow in your environment.
 
-After exporting the images and annotations, I finetuned the yolo-v7 using the command bellow:
+After exporting the images and annotations, I finetuned the yolo-v7 using the command below:
 
-Notice that yolo-v7 should be clone from the Github:
+Notice that yolo-v7 should be cloned from github:
 
-and also the pretrained weights are available from the link below:
+and also the pre-trained weights are available from the link below:
 #######################################################################
 stage2:
 
