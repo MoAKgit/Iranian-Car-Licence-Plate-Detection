@@ -16,7 +16,10 @@ After combining these two datasets, Since the annotations are not in the right f
 
 The dataset is available using these lines of code:
 
-from roboflow import Roboflow rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") dataset = project.version(1).download("yolov7")
+from roboflow import Roboflow 
+rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
+project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") 
+dataset = project.version(1).download("yolov7")
 
 To download the dataset, you need to first install roboflow in your environment.
 
@@ -24,8 +27,9 @@ After exporting the images and annotations, I finetuned the yolo-v7 using the co
 
 Notice that yolo-v7 should be cloned from github:
 
-and also the pre-trained weights are available from the link below:
+And also the pre-trained weights are available from the link below:
 #######################################################################
+
 stage2:
 
 
@@ -37,7 +41,10 @@ Like the previous dataset, we need to change the annotation appropriate for yolo
 
 After all, the modified images and annotations are available using the following codes:
 
-from roboflow import Roboflow rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") project = rf.workspace("platedetection-jgwnf").project("numdetection") dataset = project.version(1).download("yolov7")
+from roboflow import Roboflow 
+rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
+project = rf.workspace("platedetection-jgwnf").project("numdetection") 
+dataset = project.version(1).download("yolov7")
 
 After downloading the dataset, I fine-tuned the second yolov7 to detect letters inside the plates.
 
