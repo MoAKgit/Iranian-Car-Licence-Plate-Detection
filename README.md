@@ -8,15 +8,18 @@ The flowchart of the model is illustrated below:
 
 Here, I applied Yolov7 in two stages
 
-For detecting plates and cropping them from the vehicle
-Detecting numbers and letters from the cropped plate.
-stage1:
+First yolo is to detect plates and cropp them from the raw image.
+The second yolo is to detect numbers and letters from the cropped plate.
 
-To train the yolo for plate detection, I used two datasets from the links below:
+# Stage1:
 
-After combining these two datasets, Since the annotations are not in the right format of Yolo-v7, I used the service provided by the Roboflow website to generate corresponding annotations for Yolo-v7.
+To train the yolo for plate detection, I utilized two datasets from the links below:
 
-The dataset is available using these lines of code:
+https://www.kaggle.com/datasets/skhalili/iraniancarnumberplate
+
+Since the annotations are not in the right format of Yolo-v7, I used the service provided by the Roboflow website to generate corresponding annotations for Yolo-v7.
+
+The modified dataset is available using these lines of code:
 
 from roboflow import Roboflow 
 rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
