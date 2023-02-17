@@ -4,6 +4,8 @@
 
 The flowchart of the model is illustrated below:
 
+![My Image](my-image.jpg)
+
 Here, I applied Yolov7 in two stages
 
 For detecting plates and cropping them from the vehicle
