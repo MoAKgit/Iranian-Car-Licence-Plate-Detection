@@ -23,10 +23,10 @@ The modified dataset is available using these lines of code:
 
 ##usage
 ```python
-from roboflow import Roboflow 
-rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
-project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") 
-dataset = project.version(1).download("yolov7")
+from roboflow import Roboflow  
+rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV")   
+project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul")   
+dataset = project.version(1).download("yolov7")  
 '''
 
 
@@ -37,7 +37,7 @@ After exporting the images and annotations, I finetuned the yolo-v7 using the co
 Notice that yolo-v7 should be cloned from github:
 
 And also the pre-trained weights are available from the link below:
-#######################################################################
+
 
 stage2:
 
