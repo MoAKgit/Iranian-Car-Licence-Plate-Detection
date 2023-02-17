@@ -1,6 +1,6 @@
 
 
-# Iranian License Detection Using Yolo-v7:
+# Iranian Car License Plate Detection Using Yolo-v7:
 
 The flowchart of the model is illustrated below:
 
