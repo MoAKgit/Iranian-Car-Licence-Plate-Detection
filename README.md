@@ -34,17 +34,23 @@ To download the dataset, you need to first install roboflow in your environment.
 
 After exporting the images and annotations, I finetuned the yolo-v7 using the command below:
 
+```bash
+!python train.py --batch 1 --cfg cfg/training/yolov7.yaml --epochs 30 --data you-data-path/data.yaml --weights 'yolov7.pt' --device 0 
+
+```
+
 Notice that yolo-v7 should be cloned from github:
-
-And also the pre-trained weights are available from the link below:
-
+https://github.com/WongKinYiu/yolov7
+And also the pre-trained weights are available from the same address.
 
 ## Stage2:
 
 
-In the second stage, we need to detect numbers and letters in the plate, and then be inspired by the work:
+In the second stage, we need to detect numbers and letters in the detected license plate.
 
-I applied the dataset provided in the link below for finetuning the second yolov7 to detect numbers and letters inside the plate.
+Inspired by the work[], I applied the dataset provided in the link below for finetuning the second yolov7 to detect numbers and letters inside the plate.
+
+https://github.com/roozbehrajabi/ALPR_Dataset/tree/main/Faster_R-CNN_dataset
 
 Like the previous dataset, we need to change the annotation appropriate for yolov7, then regarding the previous stage, I applied the service provided by Roboflow.
 
