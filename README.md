@@ -21,10 +21,10 @@ Since the annotations are not in the right format of Yolo-v7, I used the service
 
 The modified dataset is available using these lines of code:
 
-from roboflow import Roboflow 
-rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
-project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") 
-dataset = project.version(1).download("yolov7")
+from roboflow import Roboflow <br />
+rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") <br />
+project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul") <br />
+dataset = project.version(1).download("yolov7")<br />
 
 To download the dataset, you need to first install roboflow in your environment.
 
