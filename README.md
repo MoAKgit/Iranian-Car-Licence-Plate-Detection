@@ -27,8 +27,7 @@ from roboflow import Roboflow
 rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV")   
 project = rf.workspace("platedetection-jgwnf").project("plate_detection-6e2ul")   
 dataset = project.version(1).download("yolov7") 
-
-'''
+```
 
 
 To download the dataset, you need to first install roboflow in your environment.
@@ -56,7 +55,7 @@ from roboflow import Roboflow
 rf = Roboflow(api_key="ge04UulX2BqHjBuPZwfV") 
 project = rf.workspace("platedetection-jgwnf").project("numdetection")   
 dataset = project.version(1).download("yolov7")  
-'''
+```
 
 After downloading the dataset, I fine-tuned the second yolov7 to detect letters inside the plates.
 
