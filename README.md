@@ -4,7 +4,7 @@
 
 The flowchart of the model is illustrated below:
 
-![My Image](my-image.jpg)
+![My Image](flowchart.PNG)
 
 Here, I applied Yolov7 in two stages
 
