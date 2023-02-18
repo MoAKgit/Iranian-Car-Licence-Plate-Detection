@@ -69,7 +69,9 @@ After downloading the dataset, I fine-tuned the second yolov7 to detect letters 
 
 Notice: For the sake of time, I only utilized 500 samples of the entire dataset for the training of the second yolo. However, to increase the performance of the model, we can use the entire dataset or add other datasets if available.
 
+Here are some examples of the input and output of the first and second yolos:
 
+![My Image](images/cars.jpg) | ![My Image](images/car1_plate.jpg) | ![My Image](images/plate_1.jpg) 
 
 
 
