@@ -72,14 +72,17 @@ After downloading the dataset, I fine-tuned the second yolov7 to detect letters 
 
 Notice: For the sake of time, I only utilized 500 samples of the entire dataset for the training of the second yolo. However, to increase the performance of the model, we can use the entire dataset or add other datasets if available.
 
-I uploaded pretrained weights of the first and second yolo in their corresponding folders. To use them, first, run the 'detect_paltes' in the first yolo folder called yolov7_1. 
+I uploaded pretrained weights of the first and second yolo in the folder '/weights'. 
+
+## Test:
+Copy the file 'yolo1/detect_paltes.py' into the directory of the first yolo and run it.
 There are input and output directories that need to be defined by yourself. However, the default of the input and output directories are as follows:
 
 ```python
 input_path = '../Input_images/'
 out_path = '../outputs/detected_plates/'
 ```
-The cropped license plates will be saved into the out_path directory.
+The images of the cropped license plates will be saved into the out_path directory.
 
 Then, in the command line, cd to the directory of the second yolo and run the command bellow:
 
