@@ -75,7 +75,13 @@ Notice: For the sake of time, I only utilized 500 samples of the entire dataset 
 I uploaded pretrained weights of the first and second yolo in the folder '/weights'. 
 
 ## Test:
-Copy the file 'yolo1/detect_paltes.py' into the directory of the first yolo and run it.
+Copy the file 'yolo1/detect_paltes.py' into the directory of the first yolo and run it.  
+
+```bash
+%cd to-your-first-yolo-directory
+! python detect_paltes.py
+```
+
 There are input and output directories that need to be defined by yourself. However, the default of the input and output directories are as follows:
 
 ```python
