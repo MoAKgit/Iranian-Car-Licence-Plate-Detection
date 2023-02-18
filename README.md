@@ -71,9 +71,9 @@ Notice: For the sake of time, I only utilized 500 samples of the entire dataset 
 
 Here are some examples of the input and output of the first and second yolos:
 
-![My Image](imges/car1.jpg width=20% height=20%  ) | ![My Image](imges/car1_plate.jpg) | ![My Image](imges/plate_1.jpg) 
 
 
+<img src="https://github.com/MoAKgit/Iranian-License-Plate-Detection/blob/master/imges/car1.jpg" width=50% height=50%>
 
 
 
