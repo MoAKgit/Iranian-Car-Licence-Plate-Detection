@@ -50,7 +50,7 @@ Like the first stage, I cloned the yolov7 from the github repository 'https://gi
 
 In the second Yolo, we need to detect numbers and letters on the detected license plate from the fisrt Yolo.
 
-Inspired by the work[], I applied the dataset provided in the link below for finetuning the second yolov7 to detect numbers and letters inside the plate.
+I applied the dataset provided in the link below for finetuning the second yolov7 to detect numbers and letters inside the plate.
 
 https://github.com/roozbehrajabi/ALPR_Dataset/tree/main/Faster_R-CNN_dataset
 
