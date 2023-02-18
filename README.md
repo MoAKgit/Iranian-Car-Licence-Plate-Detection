@@ -73,7 +73,7 @@ Here are some examples of the input and output of the first and second yolos:
 
 
 
-<img src="https://github.com/MoAKgit/Iranian-License-Plate-Detection/blob/master/imges/car1.jpg" width=20% height=20%>
+<img src="https://github.com/MoAKgit/Iranian-License-Plate-Detection/blob/master/imges/car1.jpg" width=20% height=20%> | <img src="https://github.com/MoAKgit/Iranian-License-Plate-Detection/blob/master/imges/car1_plate.jpg"> | <img src="https://github.com/MoAKgit/Iranian-License-Plate-Detection/blob/master/imges/plate_1.jpg"> 
 
 
 
