@@ -71,8 +71,6 @@ After downloading the dataset, I fine-tuned the second yolov7 to detect letters 
 
 Notice: For the sake of time, I only utilized 500 samples of the entire dataset for the training of the second yolo. However, to increase the performance of the model, we can use the entire dataset or add other datasets if available.
 
-I uploaded pretrained weights of the first and second yolo in the folder '/weights'. 
-
 ## Test:
 Copy the file 'yolo1/detect_paltes.py' into the directory of the first yolo and run it.  
 
