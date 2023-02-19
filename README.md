@@ -53,9 +53,9 @@ I applied the dataset provided in the link below for finetuning the second yolov
 
 https://github.com/roozbehrajabi/ALPR_Dataset/tree/main/Faster_R-CNN_dataset
 
-Like the previous dataset, we need to change the annotation appropriate for yolov7, then regarding the previous stage, I applied the service provided by Roboflow.
+Like the previous dataset, we need to change the annotation which are appropriate for yolov7. So, regarding the previous stage, I applied the service provided by Roboflow.
 
-After all, the modified images and annotations are available using the following codes:
+After all, the modified images and annotations are available as following:
 
 ```python
 from roboflow import Roboflow 
